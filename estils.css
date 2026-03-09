@@ -1,0 +1,258 @@
+:root {
+    --GrisFosc: #141316;
+    --Morat: #7119E1;
+    --Blanc : #FFFFFF;
+    --GrisClar: #F1F2F6;
+    --MoratFosc : #250353;
+    --Serif: Cambria, Georgia, serif;
+    --NoSerif: Verdana, Geneva, sans-serif;
+}
+
+
+.container {
+	width: 95%;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+body {
+	font-family: var(--Serif);
+	margin: 0px;
+	color: var(--GrisFosc);
+}
+
+header {
+    background-color: var(--MoratFosc);
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.serif-on {
+	font-family: var(--Serif);
+}
+
+.serif-off {
+	font-family: var(--NoSerif);
+}
+
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+	font-weight: 700;
+	line-height: initial;
+	margin-top: 60px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.top-bar {
+	background-color: var(--GrisClar);
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+    letter-spacing: 0px;
+}
+
+.top-bar .shelley {
+	font-size: 40px;
+  	font-weight: normal;
+  	letter-spacing: -4px;
+  	display: inline-block;
+  	transform: skewX(-14deg);
+}
+
+.menu {
+	color: var(--Blanc);
+	padding: 10px 0px 15px 0px;
+	font-size: 14px;
+}
+
+/*Enllaços menu*/
+.menu nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.menu nav ul li {
+	padding: 5px 0px;
+}
+
+.menu nav ul li.selected {
+	font-weight: 700;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: var(--Blanc);
+}
+
+.menu nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.autor {
+	text-align: right;
+  	font-size: 12px;
+}
+
+.font {
+	font-size: 12px;
+	margin-top: 25px;
+}
+
+.sangria {
+	margin-left: 145px;
+  	font-size: 22px;
+  	line-height: 1.6;
+}
+
+.obra {
+	font-size:24px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--MoratFosc);
+    color: var(--Blanc);
+    font-size: 12px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+strong {
+	font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Morat);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--GrisFosc);
+}
+
+.prod {
+	line-height: 1.6;
+ 	font-size: 18px;
+}
+
+.prod ul {
+    list-style-type: square;
+    color: var(--GrisFosc);
+    padding-left: 20px;
+}
+
+.prod .pare {
+	font-size: 20px;
+  	font-weight: 700;
+}
+
+.prod ul li {
+    margin: 10px 0;
+    font-weight: initial;
+}
+
+
+.prod ul ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+/* ************************* *
+ * Estil relatiu a les obres *
+ * ************************* */
+
+ dt {
+ 	font-size: 36px;
+ }
+
+ dd {
+ 	margin: 0px;
+ 	line-height: 1.6;
+ 	font-size: 18px;
+ }
+
+.iframe-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+blockquote {
+    background-color: var(--GrisClar);
+    border-left: 3px solid var(--GrisFosc);
+    padding: 30px 20px;
+    margin: 20px 0px 20px 20px;
+    font-weight: 700;
+}
+
+/* ********************************* *
+ * Estil relatiu al projecte Shelley *
+ * ********************************* */
+
+ .h1-amb-autor {
+ 	margin-bottom: 20px;
+ }
+
+.subtitol-autor {
+	text-align: center;
+	font-weight: 700;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.intro {
+	line-height: 1.6;
+}
+
+.cos {
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.subtitol-text {
+  	font-size: 22px;
+  	line-height: 1.6;
+  	text-align: center;
+}
+
+.obraP {
+	font-size:20px;
+}
+
+.tools {
+  margin: 15px 0 25px 0;
+  text-align:center;
+  gap: 10px;
+  align-items: center;
+}
+
+.is-hidden {
+  display: none;
+}
